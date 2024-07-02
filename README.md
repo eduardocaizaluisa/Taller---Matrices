@@ -1,6 +1,7 @@
 # Taller---Matrices
 
 1. **Imprimir los 4 elementos de la esquina**
+ https://github.com/eduardocaizaluisa/Taller---Matrices/blob/main/Contar_%20filas_columnas.c
 **Imprimir los elementos pares de la matriz**
 **Imprimir los elementos impares de la matriz**
 **Imprimir los elelemntos que no esten en las esquinas**
