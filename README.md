@@ -26,3 +26,5 @@
 (https://github.com/eduardocaizaluisa/Taller---Matrices/blob/main/Division_matrices.c)
 13. **potencia de matrices**
 (https://github.com/eduardocaizaluisa/Taller---Matrices/blob/main/Potencia_matrices.c)
+14. **sexahesimal**
+https://github.com/eduardocaizaluisa/Taller---Matrices/blob/main/sexahesimal.c
