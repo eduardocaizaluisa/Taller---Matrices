@@ -32,3 +32,4 @@ https://github.com/eduardocaizaluisa/Taller---Matrices/blob/main/sexahesimal.c
  https://github.com/eduardocaizaluisa/Taller---Matrices/blob/main/cartas.c
 16. **laberinto**
     https://github.com/eduardocaizaluisa/Taller---Matrices/blob/main/laberinto.c
+    
