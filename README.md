@@ -28,3 +28,5 @@
 (https://github.com/eduardocaizaluisa/Taller---Matrices/blob/main/Potencia_matrices.c)
 14. **sexahesimal**
 https://github.com/eduardocaizaluisa/Taller---Matrices/blob/main/sexahesimal.c
+15. **cartas**
+ https://github.com/eduardocaizaluisa/Taller---Matrices/blob/main/cartas.c
