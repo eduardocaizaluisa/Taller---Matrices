@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+
 
 #define FILAS 4
 #define COLUMNAS 4
@@ -8,14 +11,28 @@ void imprimirEsquinas(int matriz[FILAS][COLUMNAS]) {
            matriz[0][0], matriz[0][COLUMNAS-1], matriz[FILAS-1][0], matriz[FILAS-1][COLUMNAS-1]);
 }
 
-int main() {
-    int matriz[FILAS][COLUMNAS] = {
-        {1, 2, 3, 4},
-        {5, 6, 7, 8},
-        {9, 10, 11, 12},
-        {13, 14, 15, 16}
-    };
+void imprimirMatriz(int matriz[FILAS][COLUMNAS]) {
+    printf("Matriz: \n");
+    for (int i = 0; i < FILAS; i++) {
+        for (int j = 0; j < COLUMNAS; j++) {
+            printf("%d ", matriz[i][j]);
+        }
+        printf("\n");
+    }
+    printf("\n");
+}
 
+int main() {
+    srand(time(NULL));
+    int matriz[FILAS][COLUMNAS] = {};
+
+    for (int i = 0; i < FILAS; i++) {
+        for (int j = 0; j < COLUMNAS; j++) {
+            matriz[i][j] = random() % 10;
+        }
+    }
+
+    imprimirMatriz(matriz);
     imprimirEsquinas(matriz);
     return 0;
 }
