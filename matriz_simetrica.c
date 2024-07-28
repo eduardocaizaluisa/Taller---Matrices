@@ -12,17 +12,6 @@ void transpuestaMatriz(int matriz[FILAS][COLUMNAS], int transpuesta[COLUMNAS][FI
     }
 }
 
-// Funcion para generar una matriz simetrica
-void matrizSimetrica(int matriz[FILAS][COLUMNAS], int simetrica[FILAS][COLUMNAS]) {
-    int transpuesta[COLUMNAS][FILAS];
-    transpuestaMatriz(matriz, transpuesta);
-    for (int i = 0; i < FILAS; i++) {
-        for (int j = 0; j < COLUMNAS; j++) {
-            simetrica[i][j] = matriz[i][j] + transpuesta[i][j];
-        }
-    }
-}
-
 void imprimirMatriz(int matriz[FILAS][COLUMNAS]) {
     for (int i = 0; i < FILAS; i++) {
         for (int j = 0; j < COLUMNAS; j++) {
@@ -40,14 +29,14 @@ int main() {
         {13, 14, 15, 16}
     };
 
-    int simetrica[FILAS][COLUMNAS];
-    matrizSimetrica(matriz, simetrica);
+    int transpuesta[COLUMNAS][FILAS];
+    transpuestaMatriz(matriz, transpuesta);
 
     printf("Matriz original:\n");
     imprimirMatriz(matriz);
 
-    printf("Matriz simetrica:\n");
-    imprimirMatriz(simetrica);
+    printf("Matriz transpuesta:\n");
+    imprimirMatriz(transpuesta);
 
     return 0;
 }
